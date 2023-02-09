@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/** generic */
+body {
+    background-color: rgb(1, 37, 45);
+}
+
+p {
+    margin: 0;
+}
+
+/** Utility */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+header {
+    height: 80px;
+    background-color: rgb(0, 64, 77);
+}
+
+/* MAIN */
+
+.card {
+    flex-basis: 20rem;
+}
